@@ -1,0 +1,11 @@
+SCALA/.bloop
+SCALA/.bsp
+SCALA/.metals
+SCALA/.vscode
+SCALA/build.sbt
+SCALA/project/
+SCALA/target/
+.metals
+.bloop
+.vscode
+.bsp

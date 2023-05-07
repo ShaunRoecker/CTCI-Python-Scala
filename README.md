@@ -1,1 +1,1 @@
-# CTCI-Python-Scala
+CTCI Problems for Scala and Python
