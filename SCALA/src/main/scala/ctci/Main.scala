@@ -2,6 +2,8 @@ package ctci
 
 import ctci.chapter1.IsUnique._
 import ctci.chapter1.CheckPermutation._
+import ctci.chapter1.URLify._
+
 
 
 
@@ -38,7 +40,12 @@ def main =
     // evaluate the value
         // Map.transform((key, value) => if (key == 'x') value + 1 else value + 2)
 
+    println(urlify1("  a b c  ")) // %20a%20b%20c
+    println(urlify1("  a b")) // %20a%20b
+
+
     
+
 
 //
 

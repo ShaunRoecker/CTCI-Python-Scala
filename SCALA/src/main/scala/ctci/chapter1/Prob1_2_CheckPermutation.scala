@@ -15,6 +15,12 @@ object CheckPermutation:
             s.groupBy(identity).transform((k, v) => v.length)
 
         toMap(a) == toMap(b)
+
+    def  checkPermutation3(a: String, b: String): Boolean = {
+        def sortMkString(s: String) = s.sorted.mkString
+        (a == b) ||
+        (a.length == b.length) && (sortMkString(a) == sortMkString(b))
+    }
     
     
     
