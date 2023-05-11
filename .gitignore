@@ -9,3 +9,5 @@ SCALA/target/
 .bloop
 .vscode
 .bsp
+target/
+project/
