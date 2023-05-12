@@ -2,9 +2,6 @@ import string
 import unittest
 from collections import Counter
 
-def is_palidrome_perm10(s: str)-> bool:
-    s.replace("[ ]+", "", regex=True)
-
 
 def clean_phrase(s: str)-> bool:
     return [c for c in s.lower() if c in string.ascii_lowercase]
