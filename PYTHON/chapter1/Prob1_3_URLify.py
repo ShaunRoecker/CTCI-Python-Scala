@@ -1,4 +1,6 @@
 import unittest
+import re
+
 
 def urlify_algo(string: str, length: int) -> str:
     char_list = list(string)
@@ -20,6 +22,10 @@ def urlify_pythonic(string: str, length: int) -> str:
     return string[:length].replace(" ", "%20")
 
 
+def replacer(string: str, length: int)-> str:
+    return re.compile("[ ]+").sub("%20", string[:length].lstrip())
+
+print(replacer("  dsf sdf  ", 20))
 
 class Test(unittest.TestCase):
     """Test Cases"""
