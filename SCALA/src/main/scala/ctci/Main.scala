@@ -4,6 +4,8 @@ import ctci.chapter1.OneAway._
 import ctci.chapter1.StringCompression._
 import ctci.chapter1.RotateMatrix._
 import ctci.chapter1.ZeroMatrix._
+import ctci.chapter1.StringRotation._
+
 
 
 
@@ -29,6 +31,12 @@ def main =
     val matrix2 = Array(Array(1, 1, 1), Array(2, 0, 2), Array(3, 3, 3))
     setZeroes(matrix2)
     println(matrix2.flatten.toList)  // just to see it
+    // Array(Array(1, 0, 1), Array(0, 0, 0), Array(3, 0, 3))
+
+    println(stringRotation("waterbottle", "ttlewaterbo")) // true
+    println(stringRotation("waterbottle", "ttlewaterba")) // false
+
+    
 
 
 

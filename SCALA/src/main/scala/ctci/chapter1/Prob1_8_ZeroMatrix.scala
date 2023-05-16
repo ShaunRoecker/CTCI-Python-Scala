@@ -19,7 +19,7 @@ object ZeroMatrix:
             case (i,j) => {
                 m(i) = Array.fill(c)(0)
                 (0 until r).foreach {
-                case x => m(x)(j) = 0
+                    case x => m(x)(j) = 0
                 }
             }
         }
