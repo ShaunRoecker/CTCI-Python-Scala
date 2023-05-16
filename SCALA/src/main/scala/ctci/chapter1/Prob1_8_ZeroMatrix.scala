@@ -1,5 +1,11 @@
 package ctci.chapter1
 
+// write a method that sets the entire row and column to zero if an element is zero
+
+//  1  2  3          0  2  3
+//  0  1  1   ===>   0  0  0
+//  1  2  2          0  2  2
+
 object ZeroMatrix:
 
     def allZeros(m: Array[Array[Int]]): IndexedSeq[(Int, Int)] = 
