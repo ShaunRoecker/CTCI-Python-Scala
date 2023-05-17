@@ -5,6 +5,8 @@ import ctci.chapter1.StringCompression._
 import ctci.chapter1.RotateMatrix._
 import ctci.chapter1.ZeroMatrix._
 import ctci.chapter1.StringRotation._
+import ctci.chapter2.RemoveDups._
+
 
 
 
@@ -35,6 +37,8 @@ def main =
 
     println(stringRotation("waterbottle", "ttlewaterbo")) // true
     println(stringRotation("waterbottle", "ttlewaterba")) // false
+
+    println(List(1,6,3,4,6,3,4,5,2,3,4).removeDups1)
 
     
 

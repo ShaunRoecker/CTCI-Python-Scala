@@ -12,3 +12,5 @@ SCALA/target/
 target/
 project/
 SCALA.code-workspace
+PYTHON/chapter2/__pycache__/
+PYTHON/chapter2/__init__.py
