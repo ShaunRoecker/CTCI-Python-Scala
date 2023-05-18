@@ -39,7 +39,9 @@ def main =
     println(stringRotation("waterbottle", "ttlewaterba")) // false
 
     println(List(1,6,3,4,6,3,4,5,2,3,4).removeDups1)
+    // List(1, 6, 3, 4, 5, 2)
 
+    
     
 
 
