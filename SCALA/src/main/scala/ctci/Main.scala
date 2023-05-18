@@ -6,7 +6,8 @@ import ctci.chapter1.RotateMatrix._
 import ctci.chapter1.ZeroMatrix._
 import ctci.chapter1.StringRotation._
 import ctci.chapter2.RemoveDups._
-
+import ctci.chapter2.RemoveNthFromEnd._
+import ctci.chapter2.ListNode
 
 
 
@@ -41,6 +42,12 @@ def main =
     println(List(1,6,3,4,6,3,4,5,2,3,4).removeDups1)
     // List(1, 6, 3, 4, 5, 2)
 
+    val listNode = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5)))))
+    println(listNode)
+    // ListNode(1,ListNode(2,ListNode(3,ListNode(4,ListNode(5,null)))))
+    val p23 = removeNthFromEnd(listNode, 2)
+
+    println(p23)
     
     
 
