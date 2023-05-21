@@ -1,4 +1,3 @@
-package ctci
 
 import ctci.chapter1.OneAway._
 import ctci.chapter1.StringCompression._
@@ -8,7 +7,7 @@ import ctci.chapter1.StringRotation._
 import ctci.chapter2.RemoveDups._
 import ctci.chapter2.RemoveNthFromEnd._
 import ctci.chapter2.ListNode
-
+import algorithms.{Sorting, Searching}
 
 
 
@@ -48,6 +47,9 @@ def main =
     val p23 = removeNthFromEnd(listNode, 2)
 
     println(p23)
+
+    Sorting.runSort()
+    Searching.runSearch()
     
     
 
