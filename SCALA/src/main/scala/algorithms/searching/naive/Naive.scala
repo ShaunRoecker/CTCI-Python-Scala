@@ -22,15 +22,6 @@ object NaiveSubstringSearch:
 
 
 
-// sudo 
-// def substringSearch(text, pattern)
-//     tLen = length(text)
-//     pLen = length(pattern)
-//     for (i = 0 to tLen - pLen)
-//         j = 0
-//         while(j < pLen and text[i + j] == pattern[j])
-//             j++
-//         if (j == pLen) return i
-//     return -1
+            
 
 

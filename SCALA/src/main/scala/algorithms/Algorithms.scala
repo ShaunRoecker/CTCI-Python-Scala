@@ -98,10 +98,31 @@ object Searching:
 
         println(naiveSubstringSearchFunctional(text, pattern2))  //29
 
-        val stream1 = Stream.iterate(10){i => i + i}
-        println(stream1)
+        val stream1 = LazyList.iterate(10){i => i + i}.take(5).toList
+        println(stream1) // List(10, 20, 40, 80, 160)
+        // always remember to use take() for just inspecting Streams or LazyList
+        // if you forget...
+        //>>$ killall -9 java
+        // Windows users, your on your own... 
+
+        def someAlgo(x: Int): Int =
+            x + 2 * x
+
+        val stream2: List[Int] = LazyList.iterate(1){ i => someAlgo(i) }.take(5).toList
+        println(stream2) // List(1, 3, 9, 27, 81)
+
+        val pattern3: String = "seashells"
+        val text3: String = "Sally sells seashells by the seashore."
+                                       //12             
+        println(text3.kMPSubstringSearch(pattern3)) // 12
+
+        
 
 
+
+        
+
+              
 
 
 
